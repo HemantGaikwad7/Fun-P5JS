@@ -15,7 +15,7 @@ let thoughts = [
 let thoughtFont;
 
 function preload() {
-  thoughtFont = loadFont('Helvetica-Bold'); // You might need to replace this with a font file in your sketch folder or a web font
+  thoughtFont = 'Arial'; // Or try 'Verdana', 'Times New Roman', etc. // You might need to replace this with a font file in your sketch folder or a web font
 }
 
 function setup() {
